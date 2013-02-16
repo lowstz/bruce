@@ -56,7 +56,8 @@ class Application(tornado.web.Application):
             url = config.url,
             login_url = "/",
             paged = config.paged,
-            recent_replys = post.getRecentReplys()
+            recent_replys = post.getRecentReplys(),
+            debug = config.debug
         )
         tornado.web.Application.__init__(self, handlers, **settings)
 

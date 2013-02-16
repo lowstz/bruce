@@ -22,3 +22,4 @@ rec.admin_email = 'username@example.com'
 rec.admin_password = 'password'
 rec.admin_info = u'yourinformation'
 rec.default_timezone = "Asia/Shanghai"
+rec.debug = True
